@@ -1,0 +1,39 @@
+body {
+	    
+	/*background-color: #000000;*/
+	margin: 0px;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	text-align: center; 
+
+}
+
+
+h1 {
+	color: black;
+
+}
+
+
+h5 {
+	color: black;
+	font-size: 4rem;
+
+}
+
+#stars {
+	height: 300px;
+	width: auto;
+}
+
+/*#top {
+	background-color: white;
+}*/
+
+
+/*.header-text {
+	// font-size:
+	text-align: center;
+	margin: 0 auto;
+}*/
