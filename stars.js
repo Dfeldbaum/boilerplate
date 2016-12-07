@@ -20,8 +20,10 @@
 
 	function init() {
 		container = document.createElement('div');
+		container.setAttribute("id", 'stars-container')
 		document.body.appendChild( container );
-		document.body.style.overflow = 'hidden';
+		document.body.style.overflow = 'scroll';
+
 
 		HEIGHT = window.innerHeight;
 		WIDTH = window.innerWidth;
@@ -70,7 +72,7 @@
 
 		renderer.setClearColor(0x000011, 1);
 		renderer.setPixelRatio(window.devicePixelRatio);
-		renderer.setSize( WIDTH, HEIGHT);
+		renderer.setSize( 1440, 805 );
 		container.appendChild(renderer.domElement);
 
 		stats = new Stats();
@@ -121,7 +123,7 @@
 
 	  	camera.aspect = aspectRatio;
 	  	camera.updateProjectionMatrix();
-	  	renderer.setSize(WIDTH, HEIGHT);
+	  	renderer.setSize(1440, 805);
 	}
 
 	function starForge() {
