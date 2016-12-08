@@ -46,6 +46,7 @@ h5 {
 .skills-title {
 	font-size: 3.5rem;
 	font-family: 'Lato', sans-serif;
+	padding-top: 1.5rem;
 }
 
 .skills-text {
@@ -55,7 +56,7 @@ h5 {
 }
 
 .skills-container {
-	padding-top: 8rem;
+	padding-top: 4rem;
 }
 
 
@@ -73,15 +74,21 @@ h5 {
 
 
 #contact-section {
-	background-color: white;
+	background-color: #FDCD3B;
 	padding-top: 5rem;
 	padding-bottom: 5rem;
 }
 
-footer {
-	background-color: #2A3A3F;
-	padding-top: 5rem;
-	padding-bottom: 5rem;
+
+
+
+#contact-text {
+	font-size: 2rem;
+
+}
+
+.fix {
+	max-width: 60rem
 }
 
 
@@ -93,27 +100,10 @@ height: 900px;
 */
 
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    /*background-color: #333;*/
+/*Footer Section*/
+
+footer {
+	background-color: #2A3A3F;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
 }
-
-li {
-    display: inline-block;
-}
-
-li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: 'Lato', sans-serif;
-}
-
-
-
-
