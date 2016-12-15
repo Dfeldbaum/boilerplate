@@ -35,22 +35,6 @@
                 <script src="stars.js"></script> 
         </section>    
 
-    
-
-        <!-- Start About Section -->
-
-        <section id="about-section">
-            <div class="container">
-            <!-- <a name="first">First Section</a> -->
-                <div class="row">
-                    <div class="twelve columns">   
-                        <h1 class="section-title">Expertise</h1>
-                        <p>
-                    </div>
-                </div>
-
-            </div>
-        </section>
 
         <!-- Start Work Section -->
 
@@ -93,7 +77,7 @@
             </div>
 
             <!-- Start GRODT Game -->
-            <div class="row work-spacing">
+            <div class="row work-spacing2">
                 <div class="seven columns">       
                     <img src="images/grodt-19-per.png">
                 </div>
@@ -113,7 +97,22 @@
         </div>
         </section>
        
+        <!-- Start About Section -->
 
+        <section id="about-section">
+            <div class="container">
+                <div class="row">
+                    <div class="twelve columns">   
+                        <hr>
+                        <h1 class="section-title">Expertise</h1>
+                        <p class="about-text">The crossover between design and programming has always been of interest to me, and since moving to London six years ago, I've been lucky enough to work alongside some talented teams on a number of high profile websites.</p>
+                        <p class="about-text">I have a wide range of skills that include design (and working closely with designers), front-end development (HTML5, CSS3, Javascript, Responsive, UX), back-end development using open source technologies (PHP, Drupal, Django and Ruby on Rails), Linux server system administration, load balancing (Varnish and Memcached), deployment and performance tuning (Apache, MySQL and NGinx).</p>
+                        <hr>
+                    </div>
+                </div>
+
+            </div>
+        </section>
 
 
        <!-- Start Contact Section -->
@@ -122,19 +121,20 @@
         <section id="contact-section" name="contact">
             <div class="row">
                 <div class="twelve columns">       
-                    <h1 class="section-title">Drop me a line!</h1>
-                    <div class="container fix2">
-                    <!-- <h3 id="contact-text">Let's collaborate on a project today.</h3> -->
-                    </div>
+                    <h1 id="contact-title">Drop me a line!</h1>
+                    <button id="contact-button">Contact</button>
+<!--                     <div class="container fix2">
+                    <h3 id="contact-text">Let's collaborate on a project today.</h3>
+                    </div> -->
                 </div>
             </div>
 
-            <div class="container fix1"> 
+            <div class="container" id="fix1"> 
                 <form>
                   <div class="row">
                     <div class="six columns">
                       <label for="exampleEmailInput">Your email</label>
-                      <input class="u-full-width" type="email" placeholder="youremail@mailbox.com" id="email-input">
+                      <input class="u-full-width" type="email" placeholder="email@mailbox.com" id="email-input">
                     </div>
                     <div class="six columns">
                       <label for="exampleRecipientInput">Services</label>
@@ -150,12 +150,8 @@
                   </div>
                   <label for="exampleMessage">Message</label>
                   <textarea class="u-full-width" placeholder="Your message here" id="message-input"></textarea>
-                  <label class="example-send-yourself-copy">
-                    <input type="checkbox">
-                    <span class="label-body">Send a copy to yourself</span>
-                  </label>
                  <!--  <input class="button-primary" type="submit" value="Submit"> -->
-                 <button>Submit</button>
+                 <button id="contact-submit-button">Submit</button>
                 </form>
             </div>
 
@@ -173,5 +169,6 @@
 
 
         <script src="scroll.js"></script>
+        <script src="app.js"></script>
 </body>
 </html>

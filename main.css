@@ -91,46 +91,19 @@ canvas {
 }
 
 
-
-/*About Section*/
-
-
-#about-section {
-	padding-top: 4.7rem;
-	padding-bottom: 5rem;
-	background-color: white;
-	height: 500px;
-}
-
-
-.skills-title {
-	font-size: 3.5rem;
-	font-family: 'Lato', sans-serif;
-	padding-top: 1.5rem;
-}
-
-.skills-text {
-	font-size: 1.5rem;
-	color: #93a4aa;
-	font-family: 'Lato', sans-serif;
-}
-
-.skills-container {
-	padding-top: 4rem;
-}
-
-
 /*Work Section*/
 
 .work-spacing {
 	padding-bottom: 12rem;
 }
 
+.work-spacing2 {
+	padding-bottom: 3rem;
+}
 
 #work-section {
 	background-color: white;
 	padding-top: 5rem;
-	padding-bottom: 5rem;
 }
 
 
@@ -152,7 +125,25 @@ canvas {
 .project-button {
 	color: black;
 	border: 1px solid black;
+	font-family: 'Lato', sans-serif;
 
+}
+
+
+/*About Section*/
+
+
+#about-section {
+	/*padding-top: 2rem;*/
+	padding-bottom: 5rem;
+	background-color: white;
+	height: 500px;
+}
+
+.about-text {
+	font-size: 3rem;
+	font-family: 'Lato', sans-serif;
+	color: black;
 }
 
 
@@ -166,17 +157,18 @@ canvas {
 	padding-bottom: 5rem;
 }
 
+#contact-title {
+	font-size: 3rem;
+	padding-bottom: 2rem;
+}
 
 #contact-text {
 	font-size: 2rem;
 
 }
 
-.fix1 {
+#form-fix {
 	max-width: 80rem;
-}
-.fix2 {
-	max-width: 60rem
 }
 
 #email-input {
@@ -214,6 +206,17 @@ label {
 	font-family: 'Lato', sans-serif;
 }
 
+#contact-button {
+	font-family: 'Lato', sans-serif;
+	color: black;
+	border: 1px solid black;
+}
+
+#contact-submit-button {
+	font-family: 'Lato', sans-serif;
+	color: black;
+	border: 1px solid black;
+}
 
 
 /*Footer Section*/
@@ -222,5 +225,5 @@ footer {
 	background-color: #202121;
 	padding-top: 5rem;
 	padding-bottom: 5rem;
-	height: 20rem;
+	height: 15rem;
 }

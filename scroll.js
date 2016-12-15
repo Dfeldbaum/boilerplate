@@ -1,7 +1,6 @@
 console.log('linked');
 
 
-
 $(function(){
 	$('button[href^="#"]').click(function(e){
 		var target = $(this).attr('href');
@@ -19,3 +18,5 @@ $(function(){
 	});	
 	console.log("this is working")
 });
+
+
