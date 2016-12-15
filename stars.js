@@ -24,7 +24,6 @@
 		document.body.appendChild( container );
 		document.body.style.overflow = 'scroll';
 
-
 		HEIGHT = window.innerHeight;
 		WIDTH = window.innerWidth;
 		aspectRatio = WIDTH / HEIGHT;
@@ -75,11 +74,11 @@
 		renderer.setSize( 1440, 805 );
 		container.appendChild(renderer.domElement);
 
-		stats = new Stats();
-		stats.domElement.style.position = 'absolute';
-		stats.domElement.style.top = '0px';
-		stats.domElement.style.right = '0px';
-		container.appendChild( stats.domElement );
+		// stats = new Stats();
+		// stats.domElement.style.position = 'absolute';
+		// stats.domElement.style.top = '0px';
+		// stats.domElement.style.right = '0px';
+		// container.appendChild( stats.domElement );
 
 		window.addEventListener( 'resize', onWindowResize, false );
 		document.addEventListener( 'mousemove', onMouseMove, false );
@@ -89,7 +88,7 @@
 	function animate() {
 		requestAnimationFrame(animate);
 		render();
-		stats.update();
+		// stats.update();
 	}
 
 
@@ -116,8 +115,7 @@
 	}
 
 	function onWindowResize() {
-
-		// Everything should resize nicely if it needs to!
+		// Resize 
 	  	var WIDTH = window.innerWidth,
 	  		HEIGHT = window.innerHeight;
 
@@ -127,9 +125,6 @@
 	}
 
 	function starForge() {
-		/* 	Yep, it's a Star Wars: Knights of the Old Republic reference,
-			are you really surprised at this point? 
-													*/
 		var starQty = 45000;
 			geometry = new THREE.SphereGeometry(1000, 100, 50);
 
