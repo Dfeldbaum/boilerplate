@@ -28,10 +28,10 @@ h5 {
 	font-family: 'Lato', sans-serif;
 }
 
-.section-title {
+/*.section-title {
 	font-size: 3rem;
 	padding-bottom: 5rem;
-}
+}*/
 
 
 
@@ -106,6 +106,10 @@ canvas {
 	padding-top: 5rem;
 }
 
+#work-title {
+	font-size: 3rem;
+	padding-bottom: 5rem;
+}
 
 .project-title {
 	font-size: 2.5rem;
@@ -135,13 +139,18 @@ canvas {
 
 #about-section {
 	/*padding-top: 2rem;*/
-	padding-bottom: 5rem;
+	/*padding-bottom: 5rem;*/
 	background-color: white;
 	height: 500px;
 }
 
-.about-text {
+#about-title {
 	font-size: 3rem;
+	padding-bottom: 2rem;
+}
+
+.about-text {
+	font-size: 2rem;
 	font-family: 'Lato', sans-serif;
 	color: black;
 }
@@ -153,7 +162,7 @@ canvas {
 
 #contact-section {
 	background-color: white;
-	padding-top: 5rem;
+	/*padding-top: 2rem;*/
 	padding-bottom: 5rem;
 }
 
