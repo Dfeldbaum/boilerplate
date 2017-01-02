@@ -163,14 +163,15 @@ canvas {
 
 
 
-/*About Section*/
+/*Expertise Section*/
 
 
-#about-section {
+#expertise-section {
 	/*padding-top: 2rem;*/
 	/*padding-bottom: 5rem;*/
 	background-color: white;
-	height: 500px;
+	// height: 500px;
+	padding-top: 5rem;
 }
 
 #about-title {
