@@ -228,6 +228,7 @@ canvas {
 #message-input {
 	background: none;
 	border: 1px solid black;
+	height: 13rem;
 }
 
 ::-webkit-input-placeholder {
