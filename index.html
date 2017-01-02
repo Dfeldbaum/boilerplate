@@ -173,11 +173,16 @@ if=($_POST){
                 <form action="https://formspree.io/defeldbaum@gmail.com" method="POST">
                     <div class="row">
                         <div class="six columns">
-                            <label for="exampleEmailInput">Your email</label>
-                            <input class="u-full-width" type="email" placeholder="email@mailbox.com" id="email-input" name="_replyto">
+                           <!--  <label for="exampleEmailInput">Your email</label> -->
+                            <input class="u-full-width" type="text" placeholder="Your Name" id="email-input">
+                           <!--  <label for="exampleEmailInput">Your Name</label> -->
+                            <input class="u-full-width" type="email" placeholder="Your Email" id="email-input" name="_replyto">
+
                         </div>
                         <div class="six columns">
-                            <label for="exampleRecipientInput">Services</label>
+                         <!-- <label for="exampleEmailInput">Website</label> -->
+                        <input class="u-full-width" type="text" placeholder="Website" id="email-input">
+                            <!-- <label for="exampleRecipientInput">Services</label> -->
                             <select class="u-full-width" id="select-input">
                                 <option value="Option 1">Website Design</option>
                                 <option value="Option 2">Web App Development</option>
@@ -189,7 +194,7 @@ if=($_POST){
                         </div>
                     </div>
                     <label for="exampleMessage">Message</label>
-                    <textarea class="u-full-width" placeholder="Your message here" id="message-input" name="message"></textarea>
+                    <textarea class="u-full-width" placeholder="What can I help you accomplish? How can I help? Message me here." id="message-input" name="message"></textarea>
                     <!--  <input class="button-primary" type="submit" value="Submit"> -->
                     <button type="submit" id="contact-submit-button">Submit</button>
                 </form>
