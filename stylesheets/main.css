@@ -12,13 +12,13 @@ body {
 
 
 h1 {
-	color: black;
+	color: #2A3A3F;
 	font-family: 'Lato', sans-serif;
 }
 
 
 h5 {
-	color: black;
+	color: #2A3A3F;
 	font-size: 4rem;
 	font-family: 'Lato', sans-serif;
 }
@@ -28,35 +28,6 @@ h5 {
 	color: white;
 	font-family: 'Lato', sans-serif;
 }
-
-/*.section-title {
-	font-size: 3rem;
-	padding-bottom: 5rem;
-}*/
-
-// .typed-cursor{
-//     opacity: 1;
-//     -webkit-animation: blink 0.7s infinite;
-//     -moz-animation: blink 0.7s infinite;
-//     animation: blink 0.7s infinite;
-// }
-// @keyframes blink{
-//     0% { opacity:1; }
-//     50% { opacity:0; }
-//     100% { opacity:1; }
-// }
-// @-webkit-keyframes blink{
-//     0% { opacity:1; }
-//     50% { opacity:0; }
-//     100% { opacity:1; }
-// }
-// @-moz-keyframes blink{
-//     0% { opacity:1; }
-//     50% { opacity:0; }
-//     100% { opacity:1; }
-// }
-
-
 
 /*Stars Section*/
 
@@ -125,6 +96,7 @@ canvas {
 #work-section {
 	background-color: white;
 	padding-top: 5rem;
+	padding-bottom: 5rem;
 	margin: 0 auto;
 }
 
@@ -135,6 +107,7 @@ canvas {
 
 .project-title {
 	font-size: 2.5rem;
+	color: #2A3A3F;
 
 }
 
@@ -145,18 +118,18 @@ canvas {
 
 .project-text {
 	font-size: 1.5rem;
-	color: black;
+	color: #2A3A3F;
 	font-family: 'Lato', sans-serif;
 }
 .project-button {
-	color: black;
-	border: 1px solid black;
+	color: #2A3A3F;
+	border: 1px solid #2A3A3F;
 	font-family: 'Lato', sans-serif;
 
 }
 
 .project-link {
-	color: black;
+	color: #2A3A3F;
     text-decoration: none;
 }
 
@@ -181,7 +154,7 @@ canvas {
 .about-text {
 	font-size: 2.5rem;
 	font-family: 'Lato', sans-serif;
-	color: black;
+	color: #2A3A3F;
 	margin-bottom: 2rem;
 }
 
@@ -217,34 +190,34 @@ canvas {
 
 #email-input {
 	background: none;
-	border: 1px solid black;
+	border: 1px solid #2A3A3F;
 }
 
 #select-input {
 	background: none;
-	border: 1px solid black;
+	border: 1px solid #2A3A3F;
 }
 
 #message-input {
 	background: none;
-	border: 1px solid black;
+	border: 1px solid #2A3A3F;
 	height: 13rem;
 }
 
 ::-webkit-input-placeholder {
-   color: black;
+   color: #2A3A3F;
 }
 
 :-moz-placeholder { /* Firefox 18- */
-   color: black;  
+   color: #2A3A3F;  
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
-   color: black;  
+   color: #2A3A3F;  
 }
 
 :-ms-input-placeholder {  
-   color: black;  
+   color: #2A3A3F;  
 }
 
 form {
@@ -258,14 +231,14 @@ label {
 
 #contact-button {
 	font-family: 'Lato', sans-serif;
-	color: black;
-	border: 1px solid black;
+	color: #2A3A3F;
+	border: 1px solid #2A3A3F;
 }
 
 #contact-submit-button {
 	font-family: 'Lato', sans-serif;
-	color: black;
-	border: 1px solid black;
+	color: #2A3A3F;
+	border: 1px solid #2A3A3F;
 }
 
 

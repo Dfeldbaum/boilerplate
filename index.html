@@ -1,29 +1,3 @@
-<!-- <?php
-
-$to = 'defeldbaum@gmail.com';
-$subject = 'Contact Email Submission';
-
-$email = $_POST['email'];
-$message = $_POST['message'];
-
-$message = <<<EMAIL 
-
-$message
-
-From $email
-
-EMAIL;
-
-$header = '$email';
-
-if=($_POST){
-    mail($to, $subject, $message, $header);
-    $feedback = 'Thanks for your message';
-}
-
-?> -->
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -42,174 +16,163 @@ if=($_POST){
     <script src='http://cdnjs.cloudflare.com/ajax/libs/three.js/r70/three.min.js'></script>
 </head>
 <body>
-
-
-
-
         <!-- Start Stars Hero Section -->
 
-        <section id='logo-nav-layer'>
-            <h1 id="branding-title">Hi, I'm David.</h1>
-            <h3 id="branding-text">I love developing beautiful websites and web applications</h3>
-            <button id="branding-button" href="#contact1">Let's Work Together</button></br></br>
-              <button id="see-work-button" href="#work">See my work </br><i class="fa fa-angle-down"></i> </button>
-<!--         </br>      
-       <i class="fa fa-angle-down"></i>   --> 
-        </section>
+    <section id='logo-nav-layer'>
+        <h1 id="branding-title">Hi, I'm David.</h1>
+        <h3 id="branding-text">I love developing beautiful websites and web applications</h3>
+        <button id="branding-button" href="#contact1">Let's Work Together</button></br></br>
+          <button id="see-work-button" href="#work">See my work </br><i class="fa fa-angle-down"></i> </button>
+    </section>
 
-        <section id="stars-container">
-                <script src="javascripts/stars.js"></script> 
-        </section>    
+    <section id="stars-container">
+            <script src="javascripts/stars.js"></script> 
+    </section>    
 
 
-        <!-- Start Work Section -->
+    <!-- Start Work Section -->
 
-        <section id="work-section" name="work">
-            <div class="container">
+    <section id="work-section" name="work">
+        <div class="container">
+        <div class="row">
+            <div class="twelve columns">       
+                <h1 id="work-title">Work</h1>
+            </div>
+        </div>
+
+        <!-- Start Lyrical App -->
+        <div class="row work-spacing">
+            <div class="seven columns">       
+                <img src="images/lyrical-21-per.png">
+            </div>
+            <div class="five columns">
+                <div class="project-block">
+                    <h3 class="project-title">Lyrical App</h3>
+                    <h5 class="project-summary">Node/Express | Angular | Ruby/Sinatra | HTML5 | CSS3 | Materialize</h5>              
+                    <p class="project-text">Lyrical is a secure angular app that allows users to search, create, and save lyrics in one interface. Data is stored in relational mySQL tables and user authentication is secured with bCrypt. Lyrical's server side is built with Sinatra and Ruby and utilizes a RESTful API for user account and lyric data.</p>
+                    <button class="project-button"><a class="project-link" href="http://wdi-lyrical.herokuapp.com/">View Lyrical</a></button>
+                </div>    
+            </div>
+        </div>
+
+         <!-- Start Artsy App -->
+        <div class="row work-spacing">
+            <div class="seven columns"> 
+                <img src="images/artsy-17-7-per.png">        
+            </div>
+            <div class="five columns">
+                <div class="project-block">
+                    <h3 class="project-title">Artsy App</h3>
+                    <h5 class="project-summary">Node/Express | Javascript | Handlebars | CSS3 | SASS | Materialize</h5>          
+                    <p class="project-text">Artsy is an art gallery app created as part of a pair programming project. With Artsy users can upload art work via a base64 file encoder to be queried as high-quality images in user galleries. Artsy was built with Node/Express and views are rendered with Handlebars.</p>
+                    <button class="project-button"><a class="project-link" href="https://github.com/Dfeldbaum/artsy-app">View Artsy</a></button>
+                </div>                  
+            </div>
+        </div>
+
+        <!-- Start GRODT Game -->
+        <div class="row work-spacing2">
+            <div class="seven columns">       
+                <img src="images/grodt-19-per.png">
+            </div>
+            <div class="five columns">
+                <div class="project-block">
+                    <h3 class="project-title">Get Ripped Or Die Trying</h3>
+                    <h5 class="project-summary">Node/Express | Javascript | Phaser.js | Handlebars | CSS3 | LESS | Materialize</h5>
+                    <p class="project-text">Get Ripped Or Die Trying is a top-down survival game built with the Phaser.js arcade engine on Node/Express. Collision detection is set for interacting objects along with physics and seperation dynamics. Players win by collecting milk cartons and lose when collision is detected between the player and enemy sprites.</p>
+                    <button class="project-button"><a class="project-link" href="http://get-ripped-or-die-trying.herokuapp.com/">View GRODT</a></button>
+                </div>    
+            </div>
+        </div>
+    </div>
+    </section>
+   
+    <section id="footer-stars-container">
+        <script src="javascripts/footerStars.js"></script> 
+    </section>  
+
+
+    <!-- Start Expertise Section -->
+
+    <section id="expertise-section">
+        <div class="container">
             <div class="row">
-                <div class="twelve columns">       
-                    <h1 id="work-title">Work</h1>
-                </div>
-            </div>
-
-            <!-- Start Lyrical App -->
-            <div class="row work-spacing">
-                <div class="seven columns">       
-                    
-                    <img src="images/lyrical-21-per.png">
-                        
-
-
-
-                </div>
-                <div class="five columns">
-                    <div class="project-block">
-                        <h3 class="project-title">Lyrical App</h3>
-                        <h5 class="project-summary">Node/Express | Angular | Ruby/Sinatra | HTML5 | CSS3 | Materialize</h5>              
-                        <p class="project-text">Lyrical is a secure angular app that allows users to search, create, and save lyrics in one interface. Data is stored in relational mySQL tables and user authentication is secured with bCrypt. Lyrical's server side is built with Sinatra and Ruby and utilizes a RESTful API for user account and lyric data.</p>
-                        <button class="project-button"><a class="project-link" href="http://wdi-lyrical.herokuapp.com/">View Lyrical</a></button>
-                    </div>    
-                </div>
-            </div>
-
-             <!-- Start Artsy App -->
-            <div class="row work-spacing">
-                <div class="seven columns"> 
-                    <img src="images/artsy-17-7-per.png">        
-                </div>
-                <div class="five columns">
-                    <div class="project-block">
-                        <h3 class="project-title">Artsy App</h3>
-                        <h5 class="project-summary">Node/Express | Javascript | Handlebars | CSS3 | SASS | Materialize</h5>          
-                        <p class="project-text">Artsy is an art gallery app created as part of a pair programming project. With Artsy users can upload art work via a base64 file encoder to be queried as high-quality images in user galleries. Artsy was built with Node/Express and views are rendered with Handlebars.</p>
-                        <button class="project-button"><a class="project-link" href="https://github.com/Dfeldbaum/artsy-app">View Artsy</a></button>
-                    </div>                  
-                </div>
-            </div>
- 
-            <!-- Start GRODT Game -->
-            <div class="row work-spacing2">
-                <div class="seven columns">       
-                    <img src="images/grodt-19-per.png">
-                </div>
-                <div class="five columns">
-                    <div class="project-block">
-                        <h3 class="project-title">Get Ripped Or Die Trying</h3>
-                        <h5 class="project-summary">Node/Express | Javascript | Phaser.js | Handlebars | CSS3 | LESS | Materialize</h5>
-                        <p class="project-text">Get Ripped Or Die Trying is a top-down survival game built with the Phaser.js arcade engine on Node/Express. Collision detection is set for interacting objects along with physics and seperation dynamics. Players win by collecting milk cartons and lose when collision is detected between the player and enemy sprites.</p>
-                        <button class="project-button"><a class="project-link" href="http://get-ripped-or-die-trying.herokuapp.com/">View GRODT</a></button>
-                    </div>    
+                <div class="twelve columns">   
+                    <!-- <hr> -->
+                    <h1 id="about-title">Expertise</h1>
+                    <!-- <div class="width-fix"> -->
+                    <div class="row">
+                        <div class="one-half column">  
+                            <p class="about-text">My passion is bridging the gap between design and programming. My approach to web design is creative, and holistic</p>
+                            <p class="about-text">I have a wide range of front-end development skills that include HTML5, CSS3, JavaScript, AngularJS, and ReactJS.</p>
+                            </div>
+                            <div class="one-half column"> 
+                            
+                            <p class="about-text"> I have back-end web development proficiency in Node.js/Express, Sinatra, Ruby on Rails, Gulp, and mySQL</p>  
+                            <p class="about-text">I have digital marketing expertise in SEO, SEM (Google AdWords, Bing Ads) and Social Media Advertising</p>
+                        </div>
                 </div>
             </div>
         </div>
-        </section>
-       
-        <section id="footer-stars-container">
-            <script src="javascripts/footerStars.js"></script> 
-        </section>  
+    </section>
 
 
-        <!-- Start Expertise Section -->
-
-        <section id="expertise-section">
-            <div class="container">
-                <div class="row">
-                    <div class="twelve columns">   
-                        <!-- <hr> -->
-                        <h1 id="about-title">Expertise</h1>
-                        <!-- <div class="width-fix"> -->
-                        <div class="row">
-                            <div class="one-half column">  
-                                <p class="about-text">My passion is bridging the gap between design and programming. My approach to web design is creative, and holistic</p>
-                                <p class="about-text">I have a wide range of front-end development skills that include HTML5, CSS3, JavaScript, AngularJS, and ReactJS).</p>
-                                </div>
-                                <div class="one-half column"> 
-                                
-                                <p class="about-text"> My back-end web development proficiency includes Node.js/Express, Sinatra, Ruby on Rails, Gulp, and mySQL</p>  
-                                <p class="about-text">I have digital marketing expertise in SEO, SEM (Google AdWords, Bing Ads) and Social Media Advertising</p>
-                            </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+   <!-- Start Contact Section -->
 
 
-       <!-- Start Contact Section -->
-
-
-        <section id="contact-section" name="contact1">
-            <div class="row">
-                <div class="twelve columns">    
-                <hr>   
-                    <h1 id="contact-title">Drop me a line!</h1>
-                    <button id="contact-button">Contact</button>
+    <section id="contact-section" name="contact1">
+        <div class="row">
+            <div class="twelve columns">    
+            <hr>   
+                <h1 id="contact-title">Drop me a line!</h1>
+                <button id="contact-button">Contact</button>
 <!--                     <div class="container fix2">
-                    <h3 id="contact-text">Let's collaborate on a project today.</h3>
-                    </div> -->
-                </div>
+                <h3 id="contact-text">Let's collaborate on a project today.</h3>
+                </div> -->
             </div>
+        </div>
 
-            <div class="container" id="fix1">
-                <form action="https://formspree.io/defeldbaum@gmail.com" method="POST">
-                    <div class="row">
-                        <div class="six columns">
-                           <!--  <label for="exampleEmailInput">Your email</label> -->
-                            <input class="u-full-width" type="text" placeholder="Your Name" id="email-input">
-                           <!--  <label for="exampleEmailInput">Your Name</label> -->
-                            <input class="u-full-width" type="email" placeholder="Your Email" id="email-input" name="_replyto">
+        <div class="container" id="fix1">
+            <form action="https://formspree.io/defeldbaum@gmail.com" method="POST">
+                <div class="row">
+                    <div class="six columns">
+                       <!--  <label for="exampleEmailInput">Your email</label> -->
+                        <input class="u-full-width" type="text" placeholder="Your Name" id="email-input">
+                       <!--  <label for="exampleEmailInput">Your Name</label> -->
+                        <input class="u-full-width" type="email" placeholder="Your Email" id="email-input" name="_replyto">
 
-                        </div>
-                        <div class="six columns">
-                         <!-- <label for="exampleEmailInput">Website</label> -->
-                        <input class="u-full-width" type="text" placeholder="Website" id="email-input">
-                            <!-- <label for="exampleRecipientInput">Services</label> -->
-                            <select class="u-full-width" id="select-input">
-                                <option value="Option 1">Website Design</option>
-                                <option value="Option 2">Web App Development</option>
-                                <option value="Option 3">Search Engine Optimization</option>
-                                <option value="Option 3">Search Engine Advertising</option>
-                                <option value="Option 3">Social Media Advertising</option>
-                                <option value="Option 3">Web Analytics, Heat Mapping</option>
-                            </select>
-                        </div>
                     </div>
-                    <!-- <label for="exampleMessage">Message</label> -->
-                    <textarea class="u-full-width" placeholder="Tell me about your project. What can I help you accomplish? How can I help? Message me here." id="message-input" name="message"></textarea>
-                    <!--  <input class="button-primary" type="submit" value="Submit"> -->
-                    <button type="submit" id="contact-submit-button">Submit</button>
-                </form>
-            </div>
-        </section>
+                    <div class="six columns">
+                     <!-- <label for="exampleEmailInput">Website</label> -->
+                    <input class="u-full-width" type="text" placeholder="Website" id="email-input">
+                        <!-- <label for="exampleRecipientInput">Services</label> -->
+                        <select class="u-full-width" id="select-input">
+                            <option value="Option 1">Website Design</option>
+                            <option value="Option 2">Web App Development</option>
+                            <option value="Option 3">Search Engine Optimization</option>
+                            <option value="Option 3">Search Engine Advertising</option>
+                            <option value="Option 3">Social Media Advertising</option>
+                            <option value="Option 3">Web Analytics, Heat Mapping</option>
+                        </select>
+                    </div>
+                </div>
+                <!-- <label for="exampleMessage">Message</label> -->
+                <textarea class="u-full-width" placeholder="Tell me about your project. What can I help you accomplish? How can I help? Message me here." id="message-input" name="message"></textarea>
+                <!--  <input class="button-primary" type="submit" value="Submit"> -->
+                <button type="submit" id="contact-submit-button">Submit</button>
+            </form>
+        </div>
+    </section>
 
 <!--    <section id='footer-branding-layer'>
-            <h3 id="footer-branding-text">Built with Skeleton</h3>          
-        </section>  -->   
-        <section id="footer-stars-container">
-            <script src="javascripts/footerStarsLast.js"></script> 
-        </section>  
+        <h3 id="footer-branding-text">Built with Skeleton</h3>          
+    </section>  -->   
+    <section id="footer-stars-container">
+        <script src="javascripts/footerStarsLast.js"></script> 
+    </section>  
 
 
-        <script src="javascripts/scroll.js"></script>
-        <script src="javascripts/app.js"></script>
+    <script src="javascripts/scroll.js"></script>
+    <script src="javascripts/app.js"></script>
 </body>
 </html>
