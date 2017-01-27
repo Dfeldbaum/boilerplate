@@ -11,7 +11,7 @@ body {
 }
 
 
-h1 {
+h1, h2 {
 	color: #2A3A3F;
 	font-family: 'Lato', sans-serif;
 }
@@ -131,6 +131,7 @@ canvas {
 .project-link {
 	color: #2A3A3F;
     text-decoration: none;
+    font-family: 'Lato', sans-serif;
 }
 
 
@@ -152,7 +153,7 @@ canvas {
 }
 
 .about-text {
-	font-size: 2.5rem;
+	font-size: 2rem;
 	font-family: 'Lato', sans-serif;
 	color: #2A3A3F;
 	margin-bottom: 2rem;
@@ -178,6 +179,19 @@ canvas {
 	font-size: 3rem;
 	padding-bottom: 2rem;
 }
+
+
+#contact-message {
+	font-size: 2.3rem;
+	font-weight: 400;
+}
+
+#contact-message2 {
+	font-size: 2.3rem;
+	font-weight: 400;
+	padding-bottom: 2rem;
+}
+
 
 #contact-text {
 	font-size: 2rem;
