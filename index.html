@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="stylesheets/normalize.css">
     <link rel="stylesheet" href="stylesheets/skeleton.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <!-- <link rel="stylesheet" href="font-awesome.css"> -->
     <link rel='stylesheet' href="stylesheets/main.css"/>
     <link rel="icon" type="image/png" href="images/favicon.png">
     <script src='http://s.codepen.io/assets/libs/modernizr.js'></script>
@@ -17,10 +16,9 @@
 </head>
 <body>
         <!-- Start Stars Hero Section -->
-
     <section id='logo-nav-layer'>
         <h1 id="branding-title">Hi, I'm David.</h1>
-        <h3 id="branding-text">I love developing beautiful websites and web applications</h3>
+        <h3 id="branding-text"><!-- I love developing beautiful websites and web applications --></h3>
         <button id="branding-button" href="#contact1">Let's Work Together</button></br></br>
           <button id="see-work-button" href="#work">See my work </br><i class="fa fa-angle-down"></i> </button>
     </section>
@@ -29,9 +27,7 @@
             <script src="javascripts/stars.js"></script> 
     </section>    
 
-
     <!-- Start Work Section -->
-
     <section id="work-section" name="work">
         <div class="container">
         <div class="row">
@@ -93,7 +89,6 @@
 
 
     <!-- Start Expertise Section -->
-
     <section id="expertise-section">
         <div class="container">
             <div class="row">
@@ -116,21 +111,13 @@
         </div>
     </section>
 
-
    <!-- Start Contact Section -->
-
-
     <section id="contact-section" name="contact1">
         <div class="row">
             <div class="twelve columns">    
             <hr>   
                 <h1 id="contact-title">Want to collaborate?</h1>
-<!--                 <h2 id="contact-message">I would love to hear about your project and explore possible synergies.</h2>
-                <h2 id="contact-message2"> Let's chat about reaching your goals.</h2> -->
                 <button id="contact-button">Contact</button>
-<!--                     <div class="container fix2">
-                <h3 id="contact-text">Let's collaborate on a project today.</h3>
-                </div> -->
             </div>
         </div>
 
@@ -138,16 +125,12 @@
             <form action="https://formspree.io/defeldbaum@gmail.com" method="POST">
                 <div class="row">
                     <div class="six columns">
-                       <!--  <label for="exampleEmailInput">Your email</label> -->
                         <input class="u-full-width" type="text" placeholder="Your Name" id="email-input">
-                       <!--  <label for="exampleEmailInput">Your Name</label> -->
                         <input class="u-full-width" type="email" placeholder="Your Email" id="email-input" name="_replyto">
 
                     </div>
                     <div class="six columns">
-                     <!-- <label for="exampleEmailInput">Website</label> -->
                     <input class="u-full-width" type="text" placeholder="Website" id="email-input">
-                        <!-- <label for="exampleRecipientInput">Services</label> -->
                         <select class="u-full-width" id="select-input">
                             <option value="Option 1">Website Design</option>
                             <option value="Option 2">Web App Development</option>
@@ -158,22 +141,16 @@
                         </select>
                     </div>
                 </div>
-                <!-- <label for="exampleMessage">Message</label> -->
                 <textarea class="u-full-width" placeholder="Tell me about your project. What can I help you accomplish? How can I help? Message me here." id="message-input" name="message"></textarea>
-                <!--  <input class="button-primary" type="submit" value="Submit"> -->
                 <button type="submit" id="contact-submit-button">Submit</button>
             </form>
         </div>
     </section>
 
-<!--    <section id='footer-branding-layer'>
-        <h3 id="footer-branding-text">Built with Skeleton</h3>          
-    </section>  -->   
     <section id="footer-stars-container">
         <script src="javascripts/footerStarsLast.js"></script> 
     </section>  
-
-
+    <script src="javascripts/typeWriter.js"></script>
     <script src="javascripts/scroll.js"></script>
     <script src="javascripts/app.js"></script>
 </body>

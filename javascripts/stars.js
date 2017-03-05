@@ -1,13 +1,8 @@
 (function() {
 	'use strict';
-	/* 	'To actually be able to display anything with Three.js, we need three things:
-		A scene, a camera, and a renderer so we can render the scene with the camera.' 
-	   		
-	   		- http://threejs.org/docs/#Manual/Introduction/Creating_a_scene 		*/
 
 	var scene, camera, renderer;
 
-	/* We need this stuff too */
 	var container, aspectRatio,
 		HEIGHT, WIDTH, fieldOfView,
 		nearPlane, farPlane,
@@ -35,17 +30,6 @@
 
 		windowHalfX = WIDTH / 2;
 		windowHalfY = HEIGHT / 2;
-
-	/* 	fieldOfView — Camera frustum vertical field of view.
-			aspectRatio — Camera frustum aspect ratio.
-			nearPlane — Camera frustum near plane.
-			farPlane — Camera frustum far plane.	
-
-			- http://threejs.org/docs/#Reference/Cameras/PerspectiveCamera
-
-		 	In geometry, a frustum (plural: frusta or frustums) 
-		 	is the portion of a solid (normally a cone or pyramid) 
-		 	that lies between two parallel planes cutting it. - wikipedia.		*/
 
 		camera = new THREE.PerspectiveCamera(fieldOfView, aspectRatio, nearPlane, farPlane);
 
