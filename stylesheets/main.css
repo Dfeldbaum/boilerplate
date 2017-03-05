@@ -257,6 +257,21 @@ label {
 
 
 /*Footer Section*/
+// #footer-layer {
+// 	position: absolute;
+// 	top: 420%;
+// 	z-index: 15;
+// 	width: 100%;
+// }
+
+// #footer-branding-text {
+// 	color: white;
+// 	font-size: 3rem;
+// 	font-family: 'Lato', sans-serif;
+// 	font-weight: 100;
+// 	font-size: 3rem;
+// }
+
 
 // #footer-branding-layer {
 // 	position: absolute;
@@ -267,10 +282,3 @@ label {
 // }
 
 
-// #footer-branding-text {
-// 	color: white;
-// 	font-size: 3rem;
-// 	font-family: 'Lato', sans-serif;
-// 	font-weight: 100;
-// 	font-size: 3.5rem;
-// }
